@@ -1,0 +1,34 @@
+{
+  "name": "ingfinite-scroll",
+  "version": "1.0.1",
+  "description": "An AngularJS library for infinite scrolling. Calls user function on specific page position.",
+  "author": "Asim K T <aasimkt@gmail.com>",
+  "contributors": [{
+  "name": "Asim K T",
+  "email": "aasimkt@gmail.com"
+}],
+  "scripts": {
+    
+  },
+  "main": "lib/ingfinite-scroll.min.js",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/asimkt/ingfinite-scroll"
+},
+  "bugs": {
+  "url": "https://github.com/asimkt/ingfinite-scroll/issues"
+},
+  "keywords": [
+  "AngularJS",
+  "ingfinite-scroll",
+  "infinite",
+  "scroll"
+],
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+  },
+  "analyze": true,
+  "license": "MIT"
+}

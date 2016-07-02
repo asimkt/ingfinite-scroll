@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>INFINITE SCROLLING IN ANGULARJS</title>
+	<link rel="stylesheet" href="style.css">
+	<script src = "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js"></script>
+	<script src = "app.js"></script>
+</head>
+<body ng-app='demo'>	
+	<h1>INFINITE SCROLLING IN ANGULARJS</h1>
+    <div ng-controller='MainController'>
+	    <ul class='hello' infinite-scroll = "true" when-scrolled="more()" should-load-items = "{{!loading}}" distance-from-bottom = "400">
+	      <li ng-repeat='item in items'>
+	        {{item}}
+	      </li>
+	    </ul>
+    <div ng-show='loading'>Loading</div>
+  </div>
+</body>
+</html>
