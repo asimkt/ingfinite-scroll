@@ -54,6 +54,8 @@ http://codepen.io/asim-coder/pen/akWXOy
 
 > TODO: Add CDN Link
 
+Integrate: https://developers.google.com/web/updates/2016/07/infinite-scroller
+
 Report issues at : https://github.com/asimkt/ingfinite-scroll/issues
 
 Connect me through twitter: @KTAsim 
